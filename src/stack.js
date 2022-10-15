@@ -16,16 +16,19 @@ class Stack {
   push( element ) {
     // throw new NotImplementedError('Not implemented');
     // let arr = []
+    const stack = new Stack();
     return stack.push(element)
   }
 
   pop() {
     // throw new NotImplementedError('Not implemented');
-     return stack.at[-1]
+    const stack = new Stack();
+    return stack.at[-1]
   }
 
   peek() {
     // throw new NotImplementedError('Not implemented');
+    const stack = new Stack();
     return stack[0]
   }
 }
