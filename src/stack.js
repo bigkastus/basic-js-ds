@@ -23,7 +23,7 @@ class Stack {
   pop() {
     // throw new NotImplementedError('Not implemented');
     const stack = new Stack();
-    return stack.at[-1]
+    return stack.splice(0,1)
   }
 
   peek() {
